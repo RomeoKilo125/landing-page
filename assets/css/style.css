@@ -1,0 +1,76 @@
+* {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+h1,
+h2 {
+  color: maroon
+}
+
+header,
+footer {
+  height: 50px;
+  line-height: 50px;
+  background-color: darkgreen;
+  color: white;
+}
+
+header {
+  border-bottom: solid 5px gold;
+}
+
+footer {
+  border-top: 3px maroon solid;
+}
+
+input {
+  width: 75%;
+}
+
+ul {
+  margin-bottom: 0;
+}
+
+button {
+  padding: 10px 15px;
+  margin: 10px;
+}
+
+nav li {
+  display: inline;
+  padding: 0 10px;
+}
+
+nav li a {
+  text-decoration: none;
+  color: white;
+}
+
+ul li {
+  list-style-type: none;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.text-center {
+  text-align: center;
+}
+
+#contactSection {
+  background-color: gold;
+  padding-bottom: 15px;
+}
+
+#contactSection form {
+  border: 3px maroon solid;
+  border-radius: 10px;
+  width: 325px;
+  margin: 0 auto;
+}
+
+#contactSection li {
+  margin: 5px auto;
+  width: 250px;
+}
